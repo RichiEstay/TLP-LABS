@@ -1,0 +1,65 @@
+.caja1{
+    background-color: white;
+    width: 50%;
+    
+}
+.cajapadre{display: flex;}
+.cajaedit{justify-content: center;
+    align-items: center;
+    display: flex;}
+.rectangulo{
+    display: flex;
+    background-color: #BF0514;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
+.separationBox{
+    
+    width: 15%;
+    color: white
+}
+.cajatriple{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imagenAjuste{
+    height: 50%;
+    width: 50%;
+}
+.fondoImagen{
+    margin-left: 20%;
+    margin-top: 30px;
+    height: 70px;
+    width:  70px;
+    background: aquamarine;
+      align-items: center;
+    justify-content: center;
+     display: flex;
+}
+.redBox{
+    background: #BF0514;
+}
+.blueBox{
+    background: #4A6BA1;
+}.greyBox{
+    background: #C0C0C0;
+}
+.separador{
+    display: flex;
+
+}
+.contacto{
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+.cajitas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mitades{width: 50%;}
+.ancho{width: 44%;}
+.mar{margin-top: 10px;}
