@@ -1,18 +1,23 @@
 .caja1{
     background-color: white;
     width: 50%;
+    text-align: center;
     
 }
 .cajapadre{display: flex;}
 .cajaedit{justify-content: center;
     align-items: center;
-    display: flex;}
+    display: flex;
+    text-align: center;
+    width: 50%;
+}
 .rectangulo{
     display: flex;
     background-color: #BF0514;
     justify-content: center;
     align-items: center;
     height: 30px;
+    width: 100;
 }
 .separationBox{
     
@@ -49,19 +54,33 @@
 .separador{
     display: flex;
 
+
 }
 .contacto{
+    width: 50%;
     align-items: center;
     justify-content: center;
     margin-top: 15px;
+    
 }
 .cajitas{
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.mitades{width: 50%;}
+.mitades{
+    display: flex;
+    width: 100%;}
+
 .ancho{width: 44%;}
 .mar{margin-top: 10px;}
 .fuente a {color: white;
 text-decoration: none;}
+
+.margen{
+    margin-top: 10%;
+}
+.fijar{
+    position: fixed;
+}
